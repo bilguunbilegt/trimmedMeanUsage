@@ -22,8 +22,19 @@ Here's a summary of the results based on the `trimmedMeanUsage.go` example and t
    - The function correctly handles invalid trimming values by returning appropriate error messages.
    - It ensures that at least one element remains after trimming; otherwise, it returns an error indicating insufficient data.
 
+
+### Results
+
+Integer trimmed mean from Go: 51.03333333333333
+Integer trimmed mean from R:  51.03333
+
+Float trimmed mean from Go: 54.55355555555554
+Float trimmed mean from R:  54.55356
+
 ### Conclusion
 
 The `TrimmedMean` effectively calculates the trimmed mean of a slice of floating-point numbers, offering a robust measure of central tendency that mitigates the impact of outliers.
 
 By following the provided usage example and guidelines, users can seamlessly integrate the `trimmedMean` package into their Go projects, ensuring accurate and reliable statistical analysis. If any issues arise or further improvements are needed, users are encouraged to contribute to the project or seek support through the provided contact information.
+
+From the results, we can conclude that both R and Go provides exact same values for trimmed means.
